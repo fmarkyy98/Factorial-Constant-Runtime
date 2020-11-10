@@ -24,6 +24,6 @@ std::ostream& operator<<(std::ostream& os, Fact<i>& f)
 int main()
 {
     Fact<10> f; // Type any number that doesn't owerflow with its factorial a 64bit unsigned int,
-                // not my fault, that the C++ Doesn't have larger Integral type.
+                // not my fault, that the C++ doesn't have larger Integral type.
     std::cout << f.value;
 }
